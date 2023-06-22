@@ -1,0 +1,27 @@
+.h-custom {
+    height: calc(100% - 72px);
+  }
+  
+  @media (max-width: 450px) {
+    .h-custom {
+      height: 100%;
+    }
+  }
+  
+  .row {
+    height: 100%;
+  }
+  
+  .col-md-9 {
+    max-width: 450px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #34a1eb;
+  }
+  
